@@ -1,0 +1,31 @@
+{
+  "name": "challenge-14-tech-blog",
+  "version": "1.0.0",
+  "description": "A CMS style tech blog site. App will follow MVC paradigm using handlebars.js, sequalize, and express-session npm packages ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "seed": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cgwol/Challenge-14-Tech-Blog.git"
+  },
+  "author": "cgwol",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cgwol/Challenge-14-Tech-Blog/issues"
+  },
+  "homepage": "https://github.com/cgwol/Challenge-14-Tech-Blog#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "connect-session-sequelize": "^7.1.7",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "express-session": "^1.17.3",
+    "mysql2": "^3.6.1",
+    "sequelize": "^6.33.0"
+  }
+}
